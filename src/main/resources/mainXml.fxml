@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="560.0" prefWidth="900.0" style="-fx-background-image: url(/back3.jpg);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox alignment="CENTER" prefHeight="408.0" prefWidth="587.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="startTest" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 7; -fx-border-color: #FF9140; -fx-border-radius: 5; -fx-border-width: 2; -fx-background-color: #FFF8F2;" text="Начать тест" VBox.vgrow="SOMETIMES">
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="viewResult" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="46.0" prefWidth="200.0" style="-fx-background-radius: 7; -fx-border-color: #FF9140; -fx-border-radius: 5; -fx-border-width: 2; -fx-background-color: #FFF8F2;" text="Смотреть результаты" VBox.vgrow="SOMETIMES">
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="exitButton" contentDisplay="RIGHT" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 7; -fx-border-color: #FF9140; -fx-border-radius: 5; -fx-border-width: 2; -fx-background-color: #FFF8F2;" text="Выйти" VBox.vgrow="SOMETIMES">
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </VBox>
+   </center>
+</BorderPane>
